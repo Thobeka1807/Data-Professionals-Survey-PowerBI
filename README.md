@@ -9,17 +9,16 @@ The goal is to clean the dataset, transform it into usable formats, and create i
 ---
 
 ## 🛠 Data Preparation
-- Deleted empty columns for cleaner structure.
-- Processed **Salary column**:
-  - Split ranges like `120k-150k` into min/max values.
-  - Created a new column to calculate average salary.
-- Cleaned **Job Title, Programming Language, Industry, Country**:
-  - Split by custom delimiters to separate listed options from "Other. Specify".
-- Ensured consistent formatting across all categorical fields.
+Detailed notes on how the dataset was cleaned and transformed can be found here:  
+➡️ Data Cleaning Steps (documents/data_cleaning_steps.md)
 
 ---
 
 ## 📈 Visualizations
+Each visualization is explained in detail here:  
+➡️ Visualization Notes (documents/visualization_notes.md)
+
+### Dashboard Components
 1. **Card** – Total number of survey takers  
 2. **Card** – Average age of participants  
 3. **Stacked Bar Chart** – Average salary by job title  
@@ -29,7 +28,14 @@ The goal is to clean the dataset, transform it into usable formats, and create i
 7. **Gauge** – Happiness with current salary  
 8. **Donut Chart** – Difficulty of entering the industry  
 
+Screenshots of these visuals are available in the Images Folder (images/README.md).
+
 ---
 
 ## 📂 Repository Structure
+**data**        -> Raw and cleaned survey datasets
+**images**      -> Screenshots of Power BI dashboards
+**docs**        -> Documentation and notes
+**DataSurvey.pbix** -> Power BI project file
+**README.md**    -> Project overview
 
