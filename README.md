@@ -33,9 +33,9 @@ Screenshots of these visuals are available in the Images Folder (images/README.m
 ---
 
 ## 📂 Repository Structure
-**data**        -> Raw and cleaned survey datasets
-**images**      -> Screenshots of Power BI dashboards
-**docs**        -> Documentation and notes
-**DataSurvey.pbix** -> Power BI project file
-**README.md**    -> Project overview
+- **data**        -> Raw and cleaned survey datasets
+- **images**      -> Screenshots of Power BI dashboards
+- **docs**        -> Documentation and notes
+- **DataSurvey.pbix** -> Power BI project file
+- **README.md**    -> Project overview
 
